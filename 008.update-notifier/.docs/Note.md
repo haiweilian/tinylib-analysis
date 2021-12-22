@@ -1,10 +1,10 @@
-# 007.\[update-notifier\]-检测 NPM 包是否更新
+# 008.\[update-notifier\]-检测 NPM 包是否更新
 
 ## 前言
 
-![1.png](./images/1.png)
-
 用于提示当前本地的 `npm` 包是否是最新版本并给予提示。<https://github.com/yeoman/update-notifier>
+
+![1.png](./images/1.png)
 
 ## 源码
 
