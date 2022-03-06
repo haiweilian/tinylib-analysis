@@ -1,0 +1,75 @@
+│  .eslintrc.js // eslint配置文件
+│  .gitignore // git忽略配置文件
+│  .npmignore // npm忽略配置文件
+│  .travis.yml // travis自动化配置文件
+│  bower.json // bower配置文件
+│  CHANGELOG.md // 修改日志
+│  CODE_OF_CONDUCT.md // 贡献者行为准则
+│  COLLABORATOR_GUIDE.md // 贡献指南
+│  CONTRIBUTING.md // 贡献
+│  COOKBOOK.md // 使用指南
+│  ECOSYSTEM.md // 生态
+│  Gruntfile.js // grunt配置文件
+│  index.d.ts // typescript声明文件
+│  index.js // 引用入口文件
+│  karma.conf.js // 自动化测试karma配置文件
+│  LICENSE // 许可
+│  package.json // npm配置文件
+│  README.md // 使用文档
+│  UPGRADE_GUIDE.md // 升级指南
+│  webpack.config.js // webpack配置文件
+│
+├─.github // github的配置
+│
+├─dist // 打包输出目录
+│
+├─examples // 实例目录
+│
+├─lib // 源文件目录
+│  │  axios.js
+│  │  defaults.js
+│  │  utils.js
+│  │
+│  ├─adapters // 适配器 `adapters/` 下的模块负责发送请求并在收到响应后处理返回的 `Promise` 。
+│  │      http.js
+│  │      README.md
+│  │      xhr.js
+│  │
+│  ├─cancel // 取消请求
+│  │      Cancel.js
+│  │      CancelToken.js
+│  │      isCancel.js
+│  │
+│  ├─core // 核心 axios 内部专用模块
+│  │      Axios.js
+│  │      buildFullPath.js
+│  │      createError.js
+│  │      dispatchRequest.js
+│  │      enhanceError.js
+│  │      InterceptorManager.js
+│  │      mergeConfig.js
+│  │      README.md
+│  │      settle.js
+│  │      transformData.js
+│  │
+│  └─helpers // 通用模块 `helpers/` 中的模块是通用模块，*不*特定于 axios 的内部专门情况
+│          bind.js
+│          buildURL.js
+│          combineURLs.js
+│          cookies.js
+│          deprecatedMethod.js
+│          isAbsoluteURL.js
+│          isAxiosError.js
+│          isURLSameOrigin.js
+│          normalizeHeaderName.js
+│          parseHeaders.js
+│          README.md
+│          spread.js
+│          validator.js
+│
+├─sandbox // 沙箱
+│      client.html
+│      client.js
+│      server.js
+│
+└─test // 测试
